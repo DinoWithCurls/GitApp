@@ -27,7 +27,7 @@ const Register = ({navigation}) => {
             confirm_secureTextEntry: !dat.confirm_secureTextEntry
         });
     };
-    const RegnHandle = async() => {
+    const RegnHandle = async(email, password, passwordCheck) => {
         fetch("http://localhost:5000/users/register", {
             method:"POST",
             headers:{'Content-Type':'application/json'},

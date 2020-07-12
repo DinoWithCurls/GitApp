@@ -32,12 +32,12 @@ export default function App({navigation}) {
   }
   return (   
     <NavigationContainer>
-      {(isLoggedIn === true) ?
+      {/*(isLoggedIn === true) ?*/
       <Drawer.Navigator drawerContent={props => <DrawerContent { ...props} />}>
           <Drawer.Screen name="HomeDrawer" component={MainTabScreen}/>
           <Drawer.Screen name="Profile" component={Profile}/>
-      </Drawer.Navigator> :
-       <RootStackScreen /> }
+      </Drawer.Navigator> /*:
+       <RootStackScreen />*/ }
     </NavigationContainer>  
   );
 }

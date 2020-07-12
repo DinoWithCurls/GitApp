@@ -9,7 +9,7 @@ const Splash = ({navigation}) => {
             <StatusBar backgroundColor='gold'/>
             <View style={styles.header}>
                 <Animatable.Text style={styles.title} animation="zoomIn">
-                    GitHub App
+                    GitScraper
                 </Animatable.Text>
             </View>
             <Animatable.View style={styles.footer} animation="fadeInUpBig">

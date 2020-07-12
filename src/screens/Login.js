@@ -19,7 +19,7 @@ const Login = ({navigation}) => {
             secureTextEntry: !dat.secureTextEntry
         });
     };
-    const sendCred = async()=> {
+    const sendCred = async(email, password)=> {
         fetch("http://localhost:5000/users/login", {
             method:"POST",
             headers: {'Content-Type': 'application/json'},
