@@ -38,7 +38,7 @@ export default function Search() {
   return (
       <View style = {styles.container}>
         <View style = {styles.titlecontaier}>
-          <Text style = {styles.title}>Search for Shit here</Text>
+          <Text style = {styles.title}>Search here</Text>
         </View>
        <Text style={styles.text_foot}>GitHub Username</Text>
         <View style={styles.action}>
